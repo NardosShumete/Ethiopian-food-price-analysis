@@ -57,3 +57,29 @@ ethiopian-food-price-analysis/
 ├── requirements.txt
 └── .gitignore
 ```
+
+## Key Visualizations
+
+### Location & Market Analysis
+
+**Average Price by Market**
+![Average Price by Market](images/average_price_by_market.png)
+*Figure 1: Displays the overall average retail food price (ETB/kg) across 22 Ethiopian markets. It highlights which markets tend to be generally more expensive (e.g., Warder) versus cheaper (e.g., Nekemte).*
+
+**Commodity by Market Heatmap**
+![Commodity Market Heatmap](images/commodity_market_heatmap.png)
+*Figure 2: A heatmap showing the average price (ETB/kg) of four widely available commodities across all tracked markets. Darker colors indicate higher prices.*
+
+### Price Variation Analysis
+
+**Commodity Price Variation (Standard Deviation)**
+![Commodity Price Variation STD](images/commodity_price_variation_std.png)
+*Figure 3: Highlights the absolute price variation (in ETB/kg) across different commodities. Commodities with higher standard deviations experience wider price spreads.*
+
+**Commodity Price Variation (Coefficient of Variation)**
+![Commodity Price Variation CV](images/commodity_price_variation_cv.png)
+*Figure 4: Shows the relative price variation (CV %) for different commodities. This reveals how much a commodity's price fluctuates relative to its own average price, with Firewood showing massive relative volatility.*
+
+**Market Price Variation (Standard Deviation)**
+![Market Price Variation STD](images/market_price_variation_std.png)
+*Figure 5: Compares how much prices fluctuate within each market. Warder shows the highest absolute price variation across the items sold there.*
